@@ -1,0 +1,158 @@
+.contactForm{
+    padding: 2rem 1rem 0 1rem;
+    display: flex;
+    height: 80vh;
+    margin-bottom: 9rem;
+    margin-top: 9rem;
+    position: relative;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex:1;
+    margin-left: 10rem;
+}
+.right>form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+.right .user{
+    width: 30rem;
+    height: 20rem;
+    padding: 1rem;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 16px;
+}
+textarea{
+    height: 12rem !important;
+}
+.formBlur{
+    top: 2rem;
+    left: 10rem;
+}
+.blurContact{
+    top: 1rem;
+    left: -10rem !important; 
+}
+.awesome{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.awesome > :nth-child(1){
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.awesome > :nth-child(2){
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.awesome > :nth-child(3){
+    color: var(--gray);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    filter: blur(72px);
+    z-index: -9;
+}
+.cards{
+    position: relative;
+}
+.cards > *{
+    position: absolute;
+}
+.button{
+    font-size:30px;
+    padding: 3px;
+    width: 8rem;
+    height: 16rem;
+    margin-top: 1rem;
+}
+@media( max-width:992px){
+    .right .user{
+        width: 24rem;
+        height: 3rem;
+        font-size: 14px;
+    }
+}
+@media( max-width:767px){
+    .contactForm{
+    margin: 4rem 0 5rem 0;
+    }
+    .right .user{
+        width: 16rem;
+        height: 3rem;
+        font-size: 14px;
+    }
+}
+@media( max-width:600px){
+    .contactForm{
+    margin: 3rem 0 3rem 0;
+    }
+    .right .user{
+        width: 17rem;
+        height: 6rem;
+        font-size: 18px;
+    }
+    .right{
+        left: -7rem;
+        transform: scale(.8);
+    }
+}
+@media( max-width:500px){
+    .left{
+        transform: scale(.8);
+    }
+    .contactForm{
+    margin: 3rem 0 3rem 0;
+    }
+    .right .user{
+        width: 16rem;
+        height: 6rem;
+        font-size: 18px;
+    }
+    .right{
+        left: -10rem;
+        transform: scale(.7);
+    }
+}
+@media screen and (max-width:480px){
+    .contactForm{
+        margin-top: 0rem;
+        flex-direction: column;
+        height: 27rem;
+        padding: 0;
+        gap: 6rem;
+    }
+    .right{
+        left: 1rem;
+        bottom: 12rem;
+    }
+    .right .user{
+        width: 18rem;
+        height: 3rem;
+        font-size: 14px;
+    }
+    .right{
+        margin: 0;
+    }
+    .button{
+        font-size:30px;
+        padding: 3px;
+        width: 8rem;
+        height: 2rem;
+        margin-top: 1rem;
+    }
+}

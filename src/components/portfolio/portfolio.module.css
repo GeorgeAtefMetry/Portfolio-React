@@ -1,0 +1,92 @@
+.portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.portfolio span:nth-of-type(1){
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: bold;
+}
+.portfolio span:nth-of-type(2){
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.swiperSlide {
+    text-align: center;
+}
+.swiperSlide p{
+    font-size: 1.4rem;
+    color: var(--gray);
+}
+.swiperSlide span:nth-of-type(1){
+    color: var(--black);
+    font-size:1.5rem;
+    font-weight: bold;
+    margin-right: 2rem;
+}
+.swiperSlide span:nth-of-type(1):hover{
+    color: var(--orange);
+}
+.swiperSlide span:nth-of-type(2){
+    color: var(--black);
+    font-size:1.5rem;
+    font-weight: bold;
+}
+.swiperSlide span:nth-of-type(2):hover{
+    color: var(--orange);
+}
+.portfolio .swiper{
+    overflow: visible !important;
+}
+.portfolioSider{
+    margin-top: 3rem;
+    width: 100%;
+}
+.portfolioSider .swiper-slide{
+    width: 24rem;
+}
+.portfolio img{
+    width: 25rem;
+    height: 15rem;
+    border-radius: 19px;
+}
+@media screen and (max-width:992px){
+    .swiperSlide span{
+        gap: 3rem !important;
+        font-size: 25px !important;
+    }
+}
+@media screen and (max-width:767px){
+    .swiperSlide span{
+        font-size: 22px !important;
+    }
+    .portfolioSider{
+        width: 130%;
+    }
+}
+@media screen and (max-width:500px){
+    .swiperSlide p{
+        font-size: 1rem;
+    }
+    .swiperSlide span{
+        font-size: 1rem !important;
+    }
+    .portfolioSider{
+    }
+}
+@media screen and (max-width:480px){
+    .portfolioSider{
+        width: 190%;
+    }
+    .swiperSlide span{
+        display: flex;
+        width: 6rem;
+        flex-direction: column;
+        gap: 5rem;
+        font-size: 20px !important;
+    }
+}

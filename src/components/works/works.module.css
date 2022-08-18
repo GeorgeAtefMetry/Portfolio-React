@@ -1,0 +1,232 @@
+.works{
+    padding: 3rem 3rem 0 3rem;
+    display: flex;
+    height: 50vh;
+    margin-bottom: 9rem;
+    margin-top: 2rem;
+    position: relative;
+}
+.awesome{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.awesome > :nth-child(1){
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.awesome > :nth-child(2){
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.servicesButton{
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+.right{
+    position: relative;
+
+}
+.mainCircle{
+    position: relative;
+    left: 9rem;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    top: 2rem;
+    background-color: white;
+}
+.secCircle{
+    position: absolute;
+    
+}
+.mainCircle > :nth-child(1){
+    top: -3rem;
+    transform: scale(.5);
+    left: 6rem;
+}
+.mainCircle > :nth-child(2){
+    left: -3rem;
+    top: 5rem;
+}
+.mainCircle > :nth-child(3){
+    left: 6rem;
+    top: 5rem;
+}
+.mainCircle > :nth-child(4){
+    left: 15rem;
+    top: 5rem;
+}
+.mainCircle > :nth-child(5){
+    left:6rem;
+    top: 13rem;
+}
+.secCircle{
+    width: 6rem;
+    height:6rem;
+    position: absolute;
+    border-radius: 100%;
+    border: 5px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:none;
+    box-shadow: var(--smboxShadow);
+    background-color: white;
+}
+.secCircle > img{
+    transform: scale(.6);
+}
+.backCircle{
+    position: absolute;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+.BlueCircle{
+    background: #194988;
+    left: 15rem;
+    top: 0;
+}
+.YellowCircle{
+    background: #F5C32C;
+    left: 9rem;
+    top: 8rem;
+}
+/* .blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    filter: blur(72px);
+    z-index: -9;
+    top: -19%;
+    left: 56%;
+} */
+.mainCircle p{
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--orange);
+}
+.fiverr,.khamsat, .upwork, .mostaql, .freelance{
+    /* cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    position: relative; */
+}
+.fiverr:hover > p ,
+.khamsat:hover > p ,
+.upwork:hover > p ,
+.mostaql:hover > p ,
+.freelance:hover > p {
+    display: block;
+}
+.fiverr p {
+    display: none;
+    left: -9em;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.564);
+    padding: 5px 4px;
+    background-color: #fff;
+    position: absolute;
+}
+.khamsat p {
+    display: none;
+    left: -22rem;
+    font-size: 2rem;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.564);
+    padding: 5px 4px;
+    background-color: #fff;
+    position: absolute;
+}
+.upwork p {
+    display: none;
+    top: -3rem;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.564);
+    padding: 5px 20px;
+    width: 11rem;
+    background-color: #fff;
+    position: absolute;
+}
+.mostaql p {
+    display: none;
+    right: -9rem;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.564);
+    padding: 5px 4px;
+    background-color: #fff;
+    position: absolute;
+}
+.freelance p {
+    display: none;
+    left: -10rem;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.564);
+    padding: 5px 4px;
+    background-color: #fff;
+    position: absolute;
+}
+@media(max-width : 1200px){
+    .right{
+        transform: scale(.8);
+        right: 4rem;
+    }
+}
+@media(max-width : 767px){
+    .works{
+        padding: 0 2rem 0 0;
+    }
+    .awesome{
+        transform: scale(.8);
+    }
+    .right{
+        transform: scale(.7);
+    }
+}
+@media(max-width : 600px){
+    .works{
+        padding: 0 .8rem 0 0;
+    }
+    .awesome{
+        transform: scale(.7);
+    }
+    .right{
+        transform: scale(.6);
+        right: 4rem;
+    }
+}
+@media(max-width : 500px){
+    .works{
+        padding: 0 .5rem 0 0;
+    }
+    .awesome{
+        transform: scale(.6);
+    }
+    .right{
+        transform: scale(.5);
+        right: 4rem;
+    }
+}
+@media screen and (max-width:480px){
+    .works{
+        flex-direction: column;
+        height: 26rem;
+        padding: 0;
+        gap: 6rem;
+    }
+    .right{
+        display: flex;
+        align-items: flex-start;
+        justify-content: start;
+        left: -1rem;
+        transform: scale(.6);
+    }
+    .mainCircle{
+        position: static;
+    }
+    .backCircle{
+        left: 8rem;
+    }
+}

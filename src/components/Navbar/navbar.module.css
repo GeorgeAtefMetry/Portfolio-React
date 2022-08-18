@@ -1,0 +1,141 @@
+.nWrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+    background-image:linear-gradient(180deg, #fdc50f54 26.71%, #fb982f5a 99.36%);
+    padding: 0 .3rem ;
+    border-radius: 10px;
+    z-index: 100;
+    width: 100%;
+}
+.Left{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+.Left .Name{
+    font-size: 1.3 rem;
+    font-weight: bold;
+}
+.Right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+.Right .List{
+    flex: 10;
+}
+.List>ul{
+    margin: auto;
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+    cursor: pointer;
+}
+.List>ul >a > li:hover{
+    cursor: pointer;
+    color: rgb(255, 111, 0);
+}
+.NavbarButton{
+    flex: 2;
+    z-index: 100;
+    
+}
+@media(max-width:900px){
+    .nWrapper{
+        width: 38rem;
+    }
+    .List>ul{
+        gap: 1rem;
+        margin-right: 1rem;
+    }
+}
+@media(max-width:800px){
+    .nWrapper{
+        width: 32rem;
+    }
+    .List>ul{
+        gap: 1rem;
+        margin-right: 1rem;
+    }
+    }
+    .Left{
+        gap: 1rem;
+    }
+    .List ul li{
+        font-size: .8rem;
+    }
+@media(max-width:767px){
+    .nWrapper{
+        width: 36rem;
+    }
+    .List>ul{
+        gap: .7rem;
+        margin-right: .7rem;
+    }
+    .List ul li{
+        font-size: .9rem;
+    }
+}
+@media(max-width:600px){
+    .nWrapper{
+        width: 29rem;
+    }
+    .List>ul{
+        gap: .6rem;
+        margin-right: .6rem;
+    }
+    .List ul li{
+        font-size: .8rem;
+    }
+}
+@media(max-width:500px){
+    .Right{
+        margin: 0;
+        flex: 0 0;
+    }
+    .nWrapper{
+        width: 24rem;
+    }
+    .Left{
+        margin: 0;
+        flex: 0 1;
+        margin-right: 1rem;
+        gap: .5rem;
+    }
+    .List{
+        flex: 0 0;
+    }
+    .List>ul{
+        gap: .4rem;
+        margin: 0rem;
+        padding: 0 !important;
+    }
+    .List ul li{
+        font-size: .7rem;
+    }
+    .NavbarButton{
+        font-size: .5rem !important;
+        margin: 0;
+        padding: .5rem !important;
+        margin-left: .5rem;
+    }
+}
+@media screen and (max-width:480px){
+    .Right .List{
+        display: none;
+    }
+    .nWrapper{
+        padding: 10px 100px;
+        width: 100%;
+        height: 8vh;
+        position: relative
+    }
+    .NavbarButton{
+        display: none;
+    }
+}
