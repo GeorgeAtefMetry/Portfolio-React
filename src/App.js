@@ -9,6 +9,7 @@ import Contact from "./components/contact/contact";
 import Footer from "./components/footer/footer";
 import {themeContext} from './context'
 import { useContext } from "react";
+// Hi
 function App() {
   const theme = useContext(themeContext)
   const darkMode = theme.state.darkMode
