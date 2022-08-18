@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Portfolio-React/static/css/main.696b59af.css",
+    "main.js": "/Portfolio-React/static/js/main.b4303d12.js",
+    "static/media/vanillaJS.png": "/Portfolio-React/static/media/vanillaJS.d77da94e9b79a1a6cf90.png",
+    "static/media/moviesReact.png": "/Portfolio-React/static/media/moviesReact.84d689a3d635f1fe3883.png",
+    "static/media/me1.png": "/Portfolio-React/static/media/me1.d760bcd35e30823d127b.png",
+    "static/media/bootstrap.png": "/Portfolio-React/static/media/bootstrap.f8e04791fbbe42539ef4.png",
+    "static/media/foodReact.png": "/Portfolio-React/static/media/foodReact.e546b71f2380152a8fe6.png",
+    "static/media/animatedTemplate.png": "/Portfolio-React/static/media/animatedTemplate.2512d7f953d98e1365fb.png",
+    "static/media/calcReact.png": "/Portfolio-React/static/media/calcReact.d619af7a66ae14772633.png",
+    "static/media/xcite.png": "/Portfolio-React/static/media/xcite.5e64fc069f0e37418910.png",
+    "static/media/glassesimoji.png": "/Portfolio-React/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/George atef (3).pdf": "/Portfolio-React/static/media/George atef (3).73dc787a274afae2e2d8.pdf",
+    "static/media/memoryGameJS.png": "/Portfolio-React/static/media/memoryGameJS.28c4defb9a3df9fb5e46.png",
+    "static/media/thumbup.png": "/Portfolio-React/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/Portfolio-React/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/Portfolio-React/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/Portfolio-React/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/Portfolio-React/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/Portfolio-React/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/glasses.png": "/Portfolio-React/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "static/media/freelance.png": "/Portfolio-React/static/media/freelance.822a48744842ae2b9d85.png",
+    "index.html": "/Portfolio-React/index.html",
+    "main.696b59af.css.map": "/Portfolio-React/static/css/main.696b59af.css.map",
+    "main.b4303d12.js.map": "/Portfolio-React/static/js/main.b4303d12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.696b59af.css",
+    "static/js/main.b4303d12.js"
+  ]
+}
