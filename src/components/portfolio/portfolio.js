@@ -72,7 +72,7 @@ const Portfolio = () => {
                     <a href='https://github.com/GeorgeAtefMetry/Site-Vanilla-JS-' style={{textDecoration:'none'}}><span>Code🧑🏿‍💻</span></a>
                 </SwiperSlide>
                 <SwiperSlide  className={classes.swiperSlide}>
-                    <p>Template</p>
+                    <p>Template Site</p>
                     <img src={bootstrap}></img>
                     
                     <a href='https://georgeatefmetry.github.io/Site-Using-Bootstrap/' style={{textDecoration:'none'}}><span>Live✨</span></a>

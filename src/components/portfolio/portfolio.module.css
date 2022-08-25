@@ -47,7 +47,7 @@
     width: 100%;
 }
 .portfolioSider .swiper-slide{
-    width: 24rem;
+    width: 100%;
 }
 .portfolio img{
     width: 25rem;
@@ -64,9 +64,6 @@
     .swiperSlide span{
         font-size: 22px !important;
     }
-    .portfolioSider{
-        width: 130%;
-    }
 }
 @media screen and (max-width:500px){
     .swiperSlide p{
@@ -80,7 +77,8 @@
 }
 @media screen and (max-width:480px){
     .portfolioSider{
-        width: 190%;
+        display: flex !important;
+        flex-direction: column !important;
     }
     .swiperSlide span{
         display: flex;
